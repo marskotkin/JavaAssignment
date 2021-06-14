@@ -1,0 +1,25 @@
+package com.tts;
+
+public class BugProgram {
+    private String FirstName;
+    private String LastName;
+    private String age;
+
+    public static void main(String[] args) {
+        System.out.println("Greetings, friends!");
+        System.out.print("TTS is awesome.");
+        System.out.print(" Do you like learning to code?");
+
+        class main {
+            String FirstName = "John";
+            String LastName = "Smith";
+            int age = 24;
+
+            public void main(String[] args) {
+                BugProgram myObj = new BugProgram();
+                System.out.println("Name: " + myObj.FirstName + " " + myObj.LastName);
+                System.out.println("Age: " + myObj.age);
+            }
+        }
+    }
+}
